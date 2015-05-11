@@ -54,6 +54,7 @@ body {margin: 0}
 	header {
 		width: 100%;
 		padding-top: 2rem;
+		margin-bottom: 2rem;
 	}
 
 		header img {
@@ -82,12 +83,13 @@ body {margin: 0}
 			border: none;
 			padding: 5px 15px;
 			border-radius: 5px;
+			text-transform: uppercase;
 		}
 
 #carrossel {
 	position: relative;
 	width: 100%;
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
 }
 	
 	#carrossel #first {
@@ -147,8 +149,7 @@ body {margin: 0}
 
 .bloco-titulo {
 	width: 100%;
-	font-size: 90%;
-	font-family: 'NotoSans',sans-serif;
+	margin: 2rem 0;
 }
 
 	.bloco-titulo .traco {
@@ -165,6 +166,7 @@ body {margin: 0}
 		width: 30%;
 		text-align: center;
 		float: left;
+		text-shadow: 1px 1px #333;
 	}
 
 #guia-01{
@@ -215,10 +217,6 @@ body {margin: 0}
 			border-radius: 5px;
 			display: block;
 		}
-
-#guia-03 {
-
-}
 	
 	#guia-03 .ultimo {
 		max-width: 230px;
@@ -241,6 +239,10 @@ body {margin: 0}
 		#guia-03 .ultimo img {
 			width: 100%;
 			height: 160px;
+		}
+
+		#guia-03 .ultimo p {
+			margin-top: 3rem;
 		}
 		
 		.bg {
@@ -265,6 +267,7 @@ footer {
 	background: #2b2b2b;
 	width: 100%;
 	height: 20rem;
+	margin-top: 2rem;
 }
 
 	footer #rodape {		
